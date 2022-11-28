@@ -1,0 +1,66 @@
+input {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    width: 30%;
+}
+form {
+    border-bottom: 0.5px solid #24292f;
+}
+text {
+    font-size: 14px;
+    margin: 2%;
+}
+.repositiories {
+    
+    border-radius: 6px;
+    font-size: 20px;
+    margin-bottom: 3%;
+    height: 100%;
+    margin-top: 10px;
+    
+}
+.visibility {
+    border: 0.5px solid #24292f;
+    border-radius: 15px;
+    background: transparent;
+    font-size: 14px;
+    color: #57606a;
+    margin-left: 200px;
+}
+.lan{
+    font-size: 12px;
+    /* background-color: #b07219; */
+}
+a {
+   text-decoration: none;
+   font-size: 15px;
+}
+.upper-tag {
+    height: 30px;
+    font-size: 16px;
+    display: inline-flex;
+    gap: 650px;
+}
+.repo1 {
+    justify-content: space-evenly;
+    width: 400px;
+    height: 63px;
+    border: 1px solid #24292f;
+    border-radius: 5px;
+    
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    /* width: 400px;
+    height: 63px;
+    border: 1px solid #24292f;
+    border-radius: 5px; */
+}
+.pagination {
+    justify-content: center;
+}
+.repo {
+    justify-content: space-evenly;
+}

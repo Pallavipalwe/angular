@@ -1,0 +1,25 @@
+ul{
+    display: flex;
+    gap: 30px;
+}
+li{
+    list-style: none;
+    padding: 10px;
+}
+.bar2{
+    display: flex;
+    padding: 25px;
+}
+footer{
+    margin-bottom: 3%;
+    margin-top: 3%;
+    display: flex;
+  
+    width: 100%;
+}
+a{
+    color: blue;
+}
+.abc{
+    text-decoration-color: gray;
+}

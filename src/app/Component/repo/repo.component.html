@@ -1,0 +1,32 @@
+<br>
+<div class="repo">
+  <div class="upper-tag d-flex justify-content-between px-2 my-1">
+    <p>Popular repositories</p>
+    <p>Customize your pins</p>
+  </div>
+  <div class="grid">
+
+    <ol class="repo1" *ngFor="let data of mapArray |paginate : {
+            itemsPerPage: 6,
+            currentPage: page, 
+            totalItems: totalrecords }">
+      <ul class="repositiories p-3 ">
+        <div class="detail d-flex justify-content-between">
+          <a href="#">{{ data.name }}</a>
+
+          <a class="visibility d-flex p-1 " href="">{{ data.visibility }}</a>
+
+          <p>{{ data.description }}</p>
+          <p class="lan">
+            {{ data.language}}</p>
+
+        </div>
+      </ul>
+
+    </ol>
+  </div>
+  <div class="pagination">
+     <pagination-controls class="pagi" (pageChange)="gty((page = $event))"></pagination-controls> 
+  </div>
+  <!-- <app-graph></app-graph> -->
+</div>

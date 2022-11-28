@@ -1,0 +1,18 @@
+ul{
+    display: flex;
+    gap: 30px;
+}
+li{
+    list-style: none;
+}
+.bar2{
+    display: flex;
+    padding: 25px;
+}
+.body{
+    display: flex;
+
+}
+.blank{
+    width: 30%;
+}
